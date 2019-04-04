@@ -1,0 +1,18 @@
+body{
+    background-color: skyblue;
+}
+
+#form{
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-bottom: 100px;
+}
+#btn1{
+    margin-left: 300px;
+}
+
+.jumbotron{
+    background-color: teal;
+    color: tan;
+    font-family: 'Oswald', sans-serif;
+}
