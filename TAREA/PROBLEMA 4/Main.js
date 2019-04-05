@@ -1,4 +1,4 @@
-export default class Main {
+class Main {
     constructor() {
         
         this._table = document.querySelector("#tableEstudiantes");

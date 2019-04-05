@@ -1,4 +1,4 @@
-export default class Main {
+class Main {
     constructor() {
         
         let total = 0;
