@@ -1,5 +1,6 @@
 export default class Main {
     constructor() {
+        
         this._table = document.querySelector("#movimientos");
         this._arrayMovimientos = new Array();
         this._totalSaldo = 0;
@@ -55,7 +56,7 @@ export default class Main {
             row = this._table.insertRow(-1);
             cell = row.insertCell(0);
             date = new Date(movimientos.date)
-            cell.innerHTML = date.getDate() + '/' + (date.getMonth() + 1) + '/' + date.getFullYear();
+            cell.innerHTML = date.getDate() + '/' + (date.getMonth()+1) + '/' + date.getFullYear();
             cell = row.insertCell(1);
             cell.innerHTML = movimientos.tipo;
             cell = row.insertCell(2);

@@ -1,5 +1,6 @@
 export default class Main {
     constructor() {
+        
         this._table = document.querySelector('#estudiantes');
         this._studentsArray = new Array();
 

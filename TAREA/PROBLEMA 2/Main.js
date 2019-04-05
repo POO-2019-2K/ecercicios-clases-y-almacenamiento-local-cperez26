@@ -1,5 +1,6 @@
 export default class Main {
     constructor() {
+        
         let total = 0;
         let h1 = document.querySelector('#total');
         if (localStorage.getItem('total') != null) {

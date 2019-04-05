@@ -1,6 +1,6 @@
 export default class Main {
     constructor() {
-        localStorage.removeItem('estudiantes');
+        
         this._table = document.querySelector("#tableEstudiantes");
         this._studentsArray = new Array();
 
